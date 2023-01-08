@@ -12,9 +12,9 @@ import re
 
 
 L = Instaloader()
-TOKEN = os.getenv("BOT_TOKEN")
-APP_NAME = os.getenv("APP_NAME")
-TELEGRAM_USERNAME = os.getenv("TELEGRAM_USERNAME")
+TOKEN = os.getenv('BOT_TOKEN', "5722439311:AAHrYAjDRhZXBYs0wz9TGjnQ1aatYwq5rAI")
+APP_NAME = os.getenv('APP_NAME', "dpsaver")
+TELEGRAM_USERNAME = os.getenv('TELEGRAM_USERNAME', "Master_broi")
 
 mediaregpat = r"(https?:\/\/(?:www\.)?instagram\.com\/(?:p|reel|tv)\/([^\/?#&\n]+)).*"
 proregpat = r"(https?:\/\/(?:www\.)?instagram\.com\/([a-z1-9_\.?=]+)).*"
